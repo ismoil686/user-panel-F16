@@ -1,0 +1,95 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    margin-bottom: 70px;
+    background-color: brown;
+    padding: 10px;
+}
+.nav_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_icon{
+    width: 50px;
+}
+.nav_logo{
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+}
+li{
+    margin-right: 40px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s ease-in;
+    &:hover{
+        color: rgb(255, 175, 175);
+    }
+}
+.home{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    padding: 7px 10px;
+    border-radius: 8px;
+    cursor: default;
+    &:hover{
+        color: brown;
+    }
+}
+input{
+    padding: 7px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    background-color: brown;
+    &::placeholder{
+        color: white;
+    }
+}
+.searching{
+    padding: 7px;
+    margin-left: 8px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    background-color: brown;
+    &:hover{
+        border: 1px solid greenyellow;
+        color: greenyellow;
+    }
+}
+.slide{
+    width: 0%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.carousel-control-prev-icon{
+    background-color: brown;
+    border-radius: 50%;
+}
+.carousel-control-next-icon{
+    background-color: brown;
+    border-radius: 50%;
+}
